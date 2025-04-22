@@ -1,6 +1,7 @@
 #include<stdio.h>
+#include <assert.h>
 
-int main() {
+void somar() {
   int a;
   int b;
   
@@ -11,5 +12,9 @@ scanf("%d", &a);
 scanf("%d", &b);
   soma = a + b;
 printf("%d", soma);
+}
+
+int main(){
+    somar();
     return 0;
 }
